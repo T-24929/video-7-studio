@@ -1,0 +1,98 @@
+.google-reviews-section {
+  position: relative;
+  overflow: clip;
+  padding: 145px max(6vw, calc((100vw - 1280px) / 2)) 105px;
+  background: #eeede6;
+  color: #343a2c;
+  text-align: center;
+}
+
+.reviews-eyebrow {
+  display: inline-block;
+  margin-bottom: 23px;
+  font-family: var(--font-sans, sans-serif);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2.2px;
+}
+
+.google-reviews-heading h2 {
+  margin: 0;
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: clamp(36px, 4.2vw, 60px);
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -1.6px;
+}
+
+.google-reviews-heading h2 em { font-weight: 400; }
+.google-reviews-heading > p {
+  margin: 23px 0 0;
+  color: #686c60;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.google-reviews-invitation {
+  position: relative;
+  max-width: 680px;
+  margin: 45px auto 28px;
+  padding: 32px 24px;
+  border-top: 1px solid #d4d7cb;
+  border-bottom: 1px solid #d4d7cb;
+}
+
+.reviews-heart { display: flex; justify-content: center; color: #787f62; margin-bottom: 15px; }
+.reviews-invitation-title {
+  margin: 0 0 12px;
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: 30px;
+  line-height: 1.2;
+}
+.reviews-invitation-copy { color: #686c60; font-size: 12px; line-height: 1.9; }
+.reviews-status { display: inline-block; margin-top: 13px; color: #777d70; font-size: 10px; letter-spacing: .5px; }
+.reviews-google-link {
+  display: inline-flex;
+  gap: 20px;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #596049;
+  color: #343a2c;
+  font-size: 11px;
+  text-decoration: none;
+  transition: gap .25s ease;
+}
+.reviews-google-link:hover { gap: 27px; }
+.reviews-google-link:focus-visible, .google-review-card a:focus-visible, .reviews-retry:focus-visible { outline: 2px solid #677451; outline-offset: 5px; }
+.reviews-retry { display: block; margin: 12px auto 0; padding: 7px 10px; background: none; border: 1px solid #b4bba7; color: #343a2c; font: inherit; font-size: 11px; cursor: pointer; }
+.google-reviews-content { margin-top: 40px; }
+.google-reviews-summary { display: flex; justify-content: center; flex-wrap: wrap; gap: 13px; align-items: center; margin-bottom: 25px; font-size: 12px; }
+.google-maps-attribution { white-space: nowrap; font-family: var(--font-sans, sans-serif); font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; color: #5e5e5e; }
+.review-stars { display: inline-flex; gap: 3px; color: #8a784a; flex-shrink: 0; }
+.review-star { position: relative; display: block; width: 13px; height: 13px; }
+.review-star > svg { display: block; }
+.review-star-fill { position: absolute; inset: 0 auto 0 0; overflow: hidden; }
+.review-star-fill svg { display: block; max-width: none; }
+.google-reviews-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 18px; text-align: left; }
+.google-review-card { display: flex; flex-direction: column; align-items: flex-start; padding: 30px; background: #f8f7f2; min-width: 0; }
+.review-quote-icon { color: #818a71; margin-bottom: 15px; }
+.google-review-card blockquote { margin: 20px 0 30px; font-family: var(--font-serif, Georgia, serif); font-size: 20px; line-height: 1.5; overflow-wrap: anywhere; }
+.google-review-author { display: flex; align-items: center; gap: 12px; margin-top: auto; padding-top: 16px; font-size: 12px; }
+.google-review-author img { border-radius: 50%; object-fit: cover; }
+.google-review-author a, .google-review-author strong { color: #343a2c; font-weight: 500; }
+.google-review-author span { display: block; margin-top: 5px; color: #6b7361; font-size: 10px; }
+.review-original-link { display: inline-flex; align-items: center; gap: 4px; margin-top: 14px; color: #677451; font-size: 10px; }
+.review-order-note { margin: 20px 0; font-size: 10px; color: #707565; line-height: 1.6; }
+.review-order-note a { color: inherit; }
+
+@media (max-width: 640px) {
+  .google-reviews-section { padding: 110px 24px 70px; }
+  .google-reviews-heading h2 { letter-spacing: -1px; }
+  .google-reviews-invitation { margin-top: 30px; padding: 28px 0; }
+  .reviews-invitation-title { font-size: 26px; }
+  .google-review-card { padding: 25px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reviews-google-link { transition: none; }
+}

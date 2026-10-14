@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 723 252" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:affinity="https://www.affinity.studio/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-194.250323,-422.191103)">
+        <g transform="matrix(1,0,0,1,1130,0)">
+            <g transform="matrix(0.772975,0,0.114328,0.695198,-1152.402271,352.826946)">
+                <path d="M764.348,218.438C768.446,213.118 769.809,206.179 767.873,200.494C765.937,194.808 761.031,191.344 755.187,191.535C721.023,192.65 666.913,194.417 638.932,195.33C636.093,195.423 633.787,193.561 633.142,190.654C632.497,187.748 633.647,184.405 636.031,182.261C636.225,182.086 636.331,181.991 636.331,181.991C636.331,181.991 667.454,145.617 688.297,121.258C691.454,117.569 695.656,115.231 699.925,114.79C704.193,114.349 708.155,115.842 710.885,118.922C711.392,119.513 711.973,119.977 712.625,120.293C747.511,137.18 901.85,120.293 901.85,120.293C901.85,120.293 712.113,356.628 678.414,398.603C675.419,402.334 674.8,407.429 676.909,410.993C676.909,410.993 676.909,410.993 676.909,410.993C679.081,414.665 679.23,419.605 677.304,424.15C675.378,428.694 671.635,432.237 667.336,433.584C635.792,443.472 576.767,461.973 576.767,461.973C576.767,461.973 710.993,287.708 764.348,218.438Z" style="fill:rgb(216,255,0);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-1289.701273,-2.622267)">
+                <text x="350.558px" y="584.573px" style="font-family:'GothamBook', 'Gotham Book', Arial, sans-serif;font-size:87.015px;fill:white;">V<tspan x="417.037px 443.577px 512.841px 572.359px " y="584.573px 584.573px 584.573px 584.573px ">IDEO</tspan></text>
+            </g>
+            <g transform="matrix(1,0,0,1,-832.952557,-1.839132)">
+                <text x="349.949px" y="584.573px" style="font-family:'GothamExtraLight', 'Gotham ExtraLight', Arial, sans-serif;font-weight:200;font-size:87.015px;fill:white;">Studio</text>
+            </g>
+        </g>
+    </g>
+</svg>
+

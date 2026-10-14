@@ -1,0 +1,27 @@
+.scroll-float {
+  margin: 0;
+}
+
+.scroll-float-text {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  text-align: inherit;
+}
+
+.scroll-float .float-word {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.scroll-float .float-char {
+  display: inline-block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-float .float-char {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

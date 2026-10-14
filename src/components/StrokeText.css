@@ -1,0 +1,30 @@
+.stroke-text {
+  display: block;
+  width: 100%;
+  line-height: 0;
+}
+
+.stroke-text--hover {
+  cursor: pointer;
+}
+
+.stroke-text__svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.stroke-text[data-ready='false'] .stroke-text__svg { visibility: hidden; }
+
+.stroke-text__stroke,
+.stroke-text__fill {
+  font-family: inherit;
+  user-select: none;
+  white-space: pre;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stroke-text [data-stroke-char] { stroke-dashoffset: 0 !important; }
+  .stroke-text:not([data-fill-mode='none']) [data-fill-char] { opacity: 1 !important; }
+}

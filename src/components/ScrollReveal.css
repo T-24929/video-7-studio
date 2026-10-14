@@ -1,0 +1,26 @@
+.scroll-reveal-copy {
+  margin: 0;
+}
+
+.scroll-reveal-text {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+.scroll-reveal-copy .reveal-word {
+  display: inline-block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-reveal-copy {
+    transform: none !important;
+  }
+
+  .scroll-reveal-copy .reveal-word {
+    opacity: 1 !important;
+    filter: none !important;
+  }
+}
